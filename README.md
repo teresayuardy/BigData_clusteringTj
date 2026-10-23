@@ -16,21 +16,14 @@ The results are explored further to understand how the identified clusters are d
 
 ## Dataset
 
-The dataset contains TransJakarta transaction records, including:
+This project uses a synthetic TransJakarta transaction dataset sourced from Kaggle. The dataset includes passenger demographic attributes, transaction timestamps, and corridor information.
 
-- Transaction ID
-- Payment card information
-- Passenger gender and birth year
-- Corridor ID and corridor name
-- Tap-in and tap-out stops
-- Tap-in and tap-out timestamps
-- Payment amount
+The dataset is published under the **CC0 1.0 Universal Public Domain Dedication**, as indicated on the original Kaggle dataset page.
 
-**Dataset source:** [Add the original dataset source]
+- **Source:** (https://www.kaggle.com/datasets/dikisahkan/transjakarta-transportation-transaction)
+- **License:** (https://creativecommons.org/publicdomain/zero/1.0/)
 
-**Data period:** [Verify the date range of the complete dataset]
-
-Note: The raw dataset may contain personal or transaction-level information. Sensitive fields should be excluded or anonymized before public sharing.
+The analysis explores patterns in the available synthetic transaction data. The results should not be interpreted as direct evidence of actual TransJakarta passenger behavior.
 
 ## Tools & Technologies
 
