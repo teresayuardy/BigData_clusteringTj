@@ -1,0 +1,28 @@
+transID > ID transaksi seorang pengguna transjakarta
+payCardBank > kartu yang digunakan untuk tap in dan tap out
+payCardName > nama pemilik kartu
+payCardSex > jenis kelamin dari si pemilik kartu
+payCardBirthDate > tahun kelahiran dari si pemilik kartu
+corridorID > nomor bus transjakarta
+corridorName > nama koridor yang berisi rute awal - rute akhir
+tapInStopsName > nama halte tempat kartu ditap in
+tapInTime > jam kartu ditap in
+tapOutStopsName > nama halte tempat kartu ditap out
+tapOutTime > jam kartu ditap out
+payAmount > biaya yang dibayarkan
+
+Koridor apa yang paling banyak penumpangnya? (tujuannya mau melihat apakah perlu adanya penambahan armada)
+Penumpang lebih banyak perempuan atau laki-laki? Rentang umurnya berapa?
+Jam berapa paling banyak penumpangnya?
+
+Pre-processing: menghapus data duplikat, menghilangkan missing values, normalisasi data
+Normalisasi pake min-max, rentangnya 0-1
+Tentukan jumlah cluster, lalu tentukan pusat cluster
+
+Cluster 1: Pekerja
+Cluster 2: Pelajar / Mahasiswa
+Cluster 3: Lansia / Non-Pekerja
+> ambil kolom payCardSex, payCardBirthDate, dan tapInTime untuk clustering
+> jenis kelamin dijadikan angka 0 dan 1
+> umur tinggal 2026 - birthdate
+> tap in time ambil jam paling depannya aja
